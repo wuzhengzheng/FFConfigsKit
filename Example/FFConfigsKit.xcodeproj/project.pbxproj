@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEA55BB3F7A5C853A09AB2FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEA55BB3F7A5C853A09AB2FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E3C82C86D571A9AAD8E1AB0E /* Pods_FFConfigsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFConfigsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7F0EA664C09619E3BF202C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E7F0EA664C09619E3BF202C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED417ED367157CA1DB9DB7BF /* Pods_FFConfigsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFConfigsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F328629FD76D38AFB95C21EB /* Pods-FFConfigsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFConfigsKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFConfigsKit_Example/Pods-FFConfigsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F7F222E77BC7CBACBBFCF714 /* FFConfigsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFConfigsKit.podspec; path = ../FFConfigsKit.podspec; sourceTree = "<group>"; };
+		F7F222E77BC7CBACBBFCF714 /* FFConfigsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFConfigsKit.podspec; path = ../FFConfigsKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				22A6F0782C1760B1001B1AA8 /* Pods-FFConfigsKit_Tests.debug.xcconfig */,
 				407034ED7DF12C2B34A3F207 /* Pods-FFConfigsKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
